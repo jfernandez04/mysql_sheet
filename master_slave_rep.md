@@ -1,11 +1,11 @@
  # Mysql Master-Slave Replication
  
-  La arquitectura maestro servidor puede ser utilizada para separar tareas de un sistema web, donde el servidor maestro es el encargado de leer y escribir datos (consulta de datos propias del sistema) mientras que el servidor esclavo se utiliza para consultar información de reportes.
   
   agregar imágen arquitectura
    ##Servidor Master
    
    Todas las configuraciones se hacen en /etc/mysql/my.cnf o donde esté ubicado el archivo de configuración de mysql.
+    
     server-id               = 1 
 
    Es el identificador del servidor Master
