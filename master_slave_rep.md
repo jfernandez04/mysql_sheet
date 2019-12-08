@@ -36,7 +36,7 @@
     1 row in set (0.00 sec)
     
    Nos conectamos al servidor, asignamos permisos de replicación al usuario slave y password 'password'.
-   El comando show MASTER stagus\G nos muestra el estado una vez iniciado el servidor como maestro.
+   El comando show MASTER status\G nos muestra el estado una vez iniciado el servidor como maestro.
    
     mysqldump -u root -p --opt newdatabase > newdatabase.sql
    Hacemos un dump (volcado) de la base de datos para cargar en el esclavo.

@@ -30,7 +30,9 @@ use performance_schema;
 
 select * from performance_schema;
 
-show variables like 'performance_schema';
+ show variables like 'performance_schema';
+
+Muestra si el esquema está activo.
 
 SELECT 
     object_schema, object_name, index_name,count_read,count_write,count_fetch
